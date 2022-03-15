@@ -1,0 +1,147 @@
+/* Page Tab */
+section .nav-link {
+    width: 45% !important;
+}
+section nav :is(.nav-link.tab1, .nav-link.tab1.active) {
+    background: #3C5351;
+    color: #FFFFFF;
+    box-shadow: 2px 2px 6px rgba(0,0,0,25%);
+}
+  
+section nav :is(.nav-link.tab2, .nav-link.tab2.active) {
+    background-color: #7E9247;
+    color: #FFFFFF;
+    box-shadow: 2px 2px 6px rgba(0,0,0,25%);
+}
+section .tab-content {
+    margin-top: 8.5px;
+}
+
+.tab-content .page-title {
+    /* border-bottom: 1px solid #707070; */
+    margin-bottom: 16.5px;
+}
+
+.page-title p {
+    color: #A7877C;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.tab-content .card {
+    border: 0px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,25%);
+}
+
+.card .card-content {
+    padding-top: 12px;
+    padding-left: 11px;
+}
+.card .card-content:first-child {
+    height: 90px;
+    
+}
+.card-content .title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card-content .description {
+    font-size: 14px;
+}
+
+.card-body .favourite {
+    margin-left: 59px;
+    margin-right: 10px;
+}
+
+.tab-pane .card {
+    margin-bottom: 39px;
+}
+
+/* .tab-pane .card:last-child {
+    margin-bottom: 0px;
+} */
+.tab-pane .grid-content{
+    display: grid;
+    grid-template-columns: 560px 500px;
+    grid-template-rows: 100%;
+    grid-gap: 10px;
+}
+.nav-link.active.tab1::after {
+    border-top: 20px solid #3C5351;
+}
+.nav-link.active.tab2::after {
+border-top: 20px solid #7E9247;
+}
+  
+section nav .nav-tabs .nav-link {
+    font-size: 18px !important;
+}
+
+#nav-1 .page-title p {
+    color: #3C5351;
+}
+#nav-2 .page-title p {
+    color: #7E9247;
+}
+#collapseSK .tree li.step1 li:first-child::before,
+#collapseOK .tree li.step1 li:first-child::before {
+    height: 33px;
+    top: -9px;
+    left: 3px;
+}
+#collapseSK .tree li.step1 li::after,
+#collapseOK .tree li.step1 li::after {
+    width: 1px;
+    left: -28px;
+    top: 26px;
+}
+
+/* #collapseSK {
+    margin-top: 40px;
+    margin-left: -34px;
+} */
+.step1 span a:first-child {
+    color: #3C5351;
+}
+
+/* #collapseOK {
+    margin-top: 40px;
+    margin-left: -34px;
+} */
+/* .step1 span a:last-child {
+    color:#7E9247;
+} */
+.tree li.step1 li:first-child::before {
+    height: 71px !important;
+    top: -44px !important;
+    left: 3px !important;
+}
+.tree li.step1 li::after {
+    width: 0px !important;
+}
+span.essential {
+    margin-bottom: 10px;
+}
+#collapseSK1 .tree li.step1 li:first-child::before,
+#collapseSK2 .tree li.step1 li:first-child::before {
+    height: 32px !important;
+    top: -44px !important;
+    left: 3px !important;
+}
+#nav-1 .tree li.step2 span:nth-child(2),
+#nav-1 .tree li.step1 span:nth-child(2), 
+#nav-1 li.parent_li {
+    color: #3C5351;
+}
+#nav-2 .tree li.step2 span:nth-child(2),
+#nav-2 .tree li.step1 span:nth-child(2), 
+#nav-2 li.parent_li {
+    color: #7E9247;
+}
+.nav-tabs button:hover {
+    box-shadow:2px 2px 6px rgb(0 0 0 / 25%) ;
+    top: -2px;
+}

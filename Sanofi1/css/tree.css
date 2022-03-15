@@ -1,0 +1,126 @@
+
+.tree li {
+    list-style-type:none;
+    margin:0;
+    padding:10px 5px 0 0px;
+    position:relative
+}
+.tree li::before, .tree li::after {
+    content:'';
+    left:-33px;
+    position:absolute;
+    right:auto
+}
+.tree li::before {
+    border-left:1px solid #999;
+    /* bottom:50px;
+    height:100%;
+    top:15px; */
+    width:1px;
+}
+.tree li::after {
+    border-top: 1px solid #999;
+    height: 20px;
+    top: 15px;
+    width: 34px
+}
+.tree li.step1 li:first-child::before {
+    height: 157px;
+    top: -11px;
+    left: -28px;
+}
+.tree li.step1 li::after {
+    width: 30px;
+    left: -28px;
+    top: 26px;
+}
+.tree li span.first-child {
+    border:1px solid #999;
+    padding: 5px 5px;
+    width: 25px;
+    height: 25px;
+}
+.tree li span {
+    display:inline-block;
+    /* padding:3px 8px; */
+    text-decoration:none
+}
+.tree li.parent_li {
+    /* display: flex; */
+    height: auto;
+}
+.tree li.parent-step:first-child {
+    display: flex;
+}
+.tree li.parent_li>span {
+    cursor:pointer;
+    display: flex;
+}
+.tree li.step1>span>i,
+.tree li.step2>span>i {
+    font-size: 8px;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.tree>ul>li::before, .tree>ul>li::after {
+    border:0
+}
+.tree li:last-child::before {
+    height:0px
+}
+.tree li.parent_li.step1 {
+    padding-top: 4px;
+    
+}
+.tree .step2>a{
+    margin-left: 18px;
+}
+.tree li.step2 {
+    padding-top: 13px;
+}
+.tree li.step2 span:nth-child(2),
+.tree li.step1 span:nth-child(2) {
+   color: #A7877C;
+   font-size: 16px;
+}
+#nav-1 .tree li.step2 span:nth-child(2),
+#nav-1 .tree li.step1 span:nth-child(2) {
+    color: #3B5BA3;
+}
+#nav-2 .tree li.step2 span:nth-child(2),
+#nav-2 .tree li.step1 span:nth-child(2) {
+    color: #49A48C;
+}
+#nav-3 .tree li.step2 span:nth-child(2),
+#nav-3 .tree li.step1 span:nth-child(2) {
+    color: #A7877C;
+}
+#nav-4 .tree li.step2 span:nth-child(2),
+#nav-4 .tree li.step1 span:nth-child(2) {
+    color: #BE056B;
+}
+#nav-5 .tree li.step2 span:nth-child(2),
+#nav-5 .tree li.step1 span:nth-child(2) {
+    color: #8A70A6;
+}
+#nav-6 .tree li.step2 span:nth-child(2),
+#nav-6 .tree li.step1 span:nth-child(2) {
+    color: #8B2729;
+}
+
+/* .tree li.parent_li>span:hover, .tree li.parent_li>span:hover+ul li span {
+    background:#eee;
+    border:1px solid #94a0b4;
+    color:#000
+} */
+
+#nav-6 .tree li.step1 li:first-child::before {
+    height: 441px;
+    top: -8px;
+    left: -28px;
+}
+
+li.parent-step.parent_li {
+    margin-top: 0px;
+    margin-left: -31px;
+}

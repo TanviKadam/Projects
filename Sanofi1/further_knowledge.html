@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Further Knowledge | Sanofi</title>
+  <!-- css file -->
+  <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/knowledge.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous" />
+  <!-- <link rel="stylesheet" href="css/tree.css"> -->
+  <link rel="stylesheet" href="css/tree2.css">
+</head>
+
+<body>
+
+  <!-- Outer Border -->
+  <div class="layout-container layout-grid layout-row">
+    <header>
+      <nav>
+        <div class="brand">
+          <img class="imagelogo" src="assets/images/Sanofi_logo_horizontal.png" alt="Logo Image">
+        </div>
+        <div class="nav-profile">
+          <div>
+            <ul class="navbar">
+              <li><a href="landing.html">Home</a></li>
+              <li><a href="operational.html">Operational Knowledge</a></li>
+              <li><a href="#" class="active">Further Knowldege</a></li>
+              <li class="icons">
+                <!-- <i class="far fa-envelope"> -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="22.843" height="17.4" viewBox="0 0 22.843 17.4">
+                  <path id="Path_37" data-name="Path 37"
+                    d="M20.836,61H2.008A2.011,2.011,0,0,0,0,63.008V76.392A2.011,2.011,0,0,0,2.008,78.4H20.836a2.011,2.011,0,0,0,2.008-2.008V63.008A2.011,2.011,0,0,0,20.836,61Zm-.277,1.338-9.094,9.094L2.291,62.338ZM1.338,76.115V63.278l6.446,6.391Zm.946.946,6.45-6.45L11,72.852a.669.669,0,0,0,.944,0l2.2-2.2,6.415,6.415Zm19.22-.946L15.09,69.7,21.5,63.285Z"
+                    transform="translate(0 -61)" fill="#1f36c7" />
+                </svg>
+
+                <span class="position-absolute top-0 start-95 translate-middle badge rounded-pill bg-danger">
+                  5
+                  <span class="visually-hidden">unread messages</span>
+                </span>
+                <!-- </i> -->
+              </li>
+            </ul>
+          </div>
+          <div class="profile">
+            <div class="profile-info">
+              <p class="profilename text-primary">Hello Sarah Wilkinson </p>
+              <p class="profiledes">Global study manager</p>
+              <button type="button" class="btn edit-profile" onclick="showProfile()">Edit profile</button>
+            </div>
+            <div class="profile-img">
+              <img src="assets/images/profile.png">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+          <button class="nav-link tab1 active" id="nav-1-tab" data-bs-toggle="tab" data-bs-target="#nav-1" type="button"
+            role="tab" aria-controls="nav-1" aria-selected="true">Scientific Knowledge
+            <span>3</span></button>
+          <button class="nav-link tab2" id="nav-2-tab" data-bs-toggle="tab" data-bs-target="#nav-2" type="button"
+            role="tab" aria-controls="nav-2" aria-selected="false">Organizational Knowledge
+            <span>2</span></button>
+        </div>
+      </nav>
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-1" role="tabpanel" aria-labelledby="nav-1-tab">
+          <div class="grid-content1">
+            <div>
+              <div class="grid-content">
+                <div class="page-title">
+                  <p>Find here the Scientific knowledge specifically for your role.</p>
+                </div>
+              </div>
+              <div class="grid-content">
+                <div class="card">
+                  <div class="card-body p-0 d-flex">
+                    <img src="assets/images/r&d.png" alt="Card Image">
+                    <div class="card-content">
+                      <h5 class="title">R&D Essentails</h5>
+                      <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquet nulla
+                        ac eros.
+                      </p>
+                    </div>
+                    <img src="assets/images/favourite.png" alt="favourite-logo" class="favourite" width=23 height=23>
+                  </div>
+                </div>
+
+                <div>
+                  <div id="collapseDVRSK" class="panel-collapse collapse show">
+                    <div class="tree ">
+                      <ul>
+                        <li class="step-parent">
+                          <span class="step1"><i class="fa fa-minus"></i> </span>
+                          <ul>
+                            <li class="step2-parent">
+                              <span><i class="fas fa-square-full"></i> </span>
+                              R & D Essentials
+                              <ul>
+                                <li>
+                                  <span><i class="fas fa-square-full"></i> </span>
+                                  Good Clinical Practises
+                                </li>
+                                <li>
+                                  <span><i class="fas fa-square-full"></i> </span>
+                                  Good Practises
+                                </li>
+
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="grid-content">
+                <div class="card">
+                  <div class="card-body p-0 d-flex">
+                    <img src="assets/images/diseases.png" alt="Card Image">
+                    <div class="card-content">
+                      <h5 class="title">Diseases and Disorders</h5>
+                      <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquet nulla
+                        ac eros.
+                      </p>
+                    </div>
+                    <img src="assets/images/favourite.png" alt="favourite-logo" class="favourite" width=23 height=23>
+                  </div>
+                </div>
+
+                <div id="collapseDVR_DD" class="panel-collapse collapse show">
+                  <div class="tree ">
+                    <ul>
+                      <li class="step-parent">
+                        <span class="step1"><i class="fa fa-minus"></i> </span>
+                        <ul>
+                          <li class="step2-parent">
+                            <span><i class="fas fa-square-full"></i> </span>
+                            Diseases and Disorders
+                            <ul>
+                              <li>
+                                <span><i class="fas fa-square-full"></i> </span>
+                                Rare Blood Disorders
+                              </li>
+
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="grid-content">
+                <div class="card">
+                  <div class="card-body p-0 d-flex">
+                    <img src="assets/images/clinic.png" alt="Card Image">
+                    <div class="card-content">
+                      <h5 class="title">Clinical Development</h5>
+                      <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquet nulla
+                        ac eros.
+                      </p>
+                    </div>
+                    <img src="assets/images/favourite.png" alt="favourite-logo" class="favourite" width=23 height=23>
+                  </div>
+                </div>
+
+                <div id="collapseDVRSK_CD" class="panel-collapse collapse show">
+                  <div class="tree ">
+                    <ul>
+                      <li class="step-parent">
+                        <span class="step1"><i class="fa fa-minus"></i> </span>
+                        <ul>
+                          <li class="step2-parent">
+                            <span><i class="fas fa-square-full"></i> </span>
+                            Clinical Development
+                            <ul>
+                              <li>
+                                <span><i class="fas fa-square-full"></i> </span>
+                                Clinical Development Essentails
+                              </li>
+
+
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab">
+          <div class="grid-content1">
+            <div class="grid-content">
+              <div class="page-title">
+                <p>Find here the Scientific knowledge specifically for your role.</p>
+              </div>
+            </div>
+            <div class="grid-content">
+
+              <div class="card">
+                <div class="card-body p-0 d-flex">
+                  <img src="assets/images/onboard.png" alt="Card Image">
+                  <div class="card-content">
+                    <h5 class="title">Onboarding</h5>
+                    <p class="description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquet nulla
+                      ac eros.
+                    </p>
+                  </div>
+                  <img src="assets/images/favourite.png" alt="favourite-logo" class="favourite" width=23 height=23>
+                </div>
+              </div>
+
+              <div id="collapseDVRtrans" class="panel-collapse collapse show">
+                <div class="tree ">
+                  <ul>
+                    <li class="step-parent">
+                      <span class="step1"><i class="fa fa-minus"></i> </span>
+                      <ul>
+                        <li class="step2-parent">
+                          <span><i class="fas fa-square-full"></i> </span>
+                          Onboarding
+                          <ul>
+                            <li>
+                              <span><i class="fas fa-square-full"></i> </span>
+                              Sanofi Onboarding
+                            </li>
+                            <li>
+                              <span><i class="fas fa-square-full"></i> </span>
+                              CSO Onboarding
+                            </li>
+
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+
+            </div>
+            <div class="grid-content">
+              <div class="card">
+                <div class="card-body p-0 d-flex">
+                  <img src="assets/images/softskill.png" alt="Card Image">
+                  <div class="card-content">
+                    <h5 class="title">Soft skills</h5>
+                    <p class="description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam aliquet nulla
+                      ac eros.
+                    </p>
+                  </div>
+                  <img src="assets/images/favourite.png" alt="favourite-logo" class="favourite" width=23 height=23>
+                </div>
+              </div>
+
+              <div id="collapseDVRtrans" class="panel-collapse collapse show">
+                <div class="tree ">
+                  <ul>
+                    <li class="step-parent">
+                      <span class="step1"><i class="fa fa-minus"></i> </span>
+                      <ul>
+                        <li class="step2-parent">
+                          <span><i class="fas fa-square-full"></i> </span>
+                          Soft skills
+                          <ul>
+                            <li>
+                              <span><i class="fas fa-square-full"></i> </span>
+                              R&D Project Management
+                            </li>
+                            <li>
+                              <span><i class="fas fa-square-full"></i> </span>
+                              R&D Project Essentails
+                            </li>
+
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+            <div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+
+
+  <!-- Edit profile -->
+  <div class="edit-body hide">
+    <form>
+      <div class="question">
+        <label for="Current-role">What is your
+          current
+          role?</label>
+        <!-- <input type="text" class="form-control" id="qty1"> -->
+        <select class="">
+          <option>Global study manager (GMS) Trial Operations-Pharma
+          </option>
+          <option>Data Manager</option>
+          <option>CRA</option>
+          <option>EMEA-FR</option>
+          <option>New hire</option>
+          <option>Planning & definition</option>
+          <option>Study ID 12345</option>
+          
+        </select>
+      </div>
+      <div class="question">
+        <label for="Current-role">What is your
+          current/Region? </label>
+        <!-- <input type="text" class="form-control" id="qty2"> -->
+        <select class="">
+          <option> Afghanistan</option>
+          <option> Åland Islands</option>
+          <option> Albania</option>
+          <option> Algeria</option>
+          <option> American Samoa</option>
+          <option> Andorra</option>
+          <option> Angola</option>
+          <option> Anguilla</option>
+          <option> Antarctica</option>
+          <option> Antigua and Barbuda</option>
+          <option> Argentina</option>
+          <option> Armenia</option>
+          <option> Aruba</option>
+          <option> Australia</option>
+          <option> Austria</option>
+          <option> Azerbaijan</option>
+          <option> Bahamas</option>
+          <option> Bahrain</option>
+          <option> Bangladesh</option>
+          <option> Barbados</option>
+          <option> Belarus</option>
+          <option> Belgium</option>
+          <option> Belize</option>
+          <option> Benin</option>
+          <option> Bermuda</option>
+          <option> Bhutan</option>
+          <option> Bolivia</option>
+          <option> Bosnia and Herzegovina</option>
+          <option> Botswana</option>
+          <option> Bouvet Island</option>
+          <option> Brazil</option>
+          <option> British Indian Ocean Territory</option>
+          <option> Brunei</option>
+          <option> Bulgaria</option>
+          <option> Burkina Faso</option>
+          <option> Burundi</option>
+          <option> Cambodia</option>
+          <option> Cameroon</option>
+          <option> Canada</option>
+          <option> Cape Verde</option>
+          <option> Caribbean Netherlands</option>
+          <option> Cayman Islands</option>
+          <option> Central African Republic</option>
+          <option> Chad</option>
+          <option> Chile</option>
+          <option> China</option>
+          <option> Christmas Island</option>
+          <option> Cocos (Keeling) Islands</option>
+          <option> Colombia</option>
+          <option> Comoros</option>
+          <option> Republic of the Congo</option>
+          <option> DR Congo</option>
+          <option> Cook Islands</option>
+          <option> Costa Rica</option>
+          <option> Côte d'Ivoire (Ivory Coast)</option>
+          <option> Croatia</option>
+          <option> Cuba</option>
+          <option> Curaçao</option>
+          <option> Cyprus</option>
+          <option> Czechia</option>
+          <option> Denmark</option>
+          <option> Djibouti</option>
+          <option> Dominica</option>
+          <option> Dominican Republic</option>
+          <option> Ecuador</option>
+          <option> Egypt</option>
+          <option> El Salvador</option>
+          <option>fla England</option>
+          <option> Equatorial Guinea</option>
+          <option> Eritrea</option>
+          <option> Estonia</option>
+          <option> Eswatini (Swaziland)</option>
+          <option> Ethiopia</option>
+          <option> Falkland Islands</option>
+          <option> Faroe Islands</option>
+          <option> Fiji</option>
+          <option> Finland</option>
+          <option> France</option>
+          <option> French Guiana</option>
+          <option> French Polynesia</option>
+          <option> French Southern and Antarctic Lands</option>
+          <option> Gabon</option>
+          <option> Gambia</option>
+          <option> Georgia</option>
+          <option> Germany</option>
+          <option> Ghana</option>
+          <option> Gibraltar</option>
+          <option> Greece</option>
+          <option> Greenland</option>
+          <option> Grenada</option>
+          <option> Guadeloupe</option>
+          <option> Guam</option>
+          <option> Guatemala</option>
+          <option> Guernsey</option>
+          <option> Guinea</option>
+          <option> Guinea-Bissau</option>
+          <option> Guyana</option>
+          <option> Haiti</option>
+          <option> Heard Island and McDonald Islands</option>
+          <option> Honduras</option>
+          <option> Hong Kong</option>
+          <option> Hungary</option>
+          <option> Iceland</option>
+          <option> India</option>
+          <option> Indonesia</option>
+          <option> Iran</option>
+          <option> Iraq</option>
+          <option> Ireland</option>
+          <option> Isle of Man</option>
+          <option> Israel</option>
+          <option> Italy</option>
+          <option> Jamaica</option>
+          <option> Japan</option>
+          <option> Jersey</option>
+          <option> Jordan</option>
+          <option> Kazakhstan</option>
+          <option> Kenya</option>
+          <option> Kiribati</option>
+          <option> North Korea</option>
+          <option> South Korea</option>
+          <option> Kosovo</option>
+          <option> Kuwait</option>
+          <option> Kyrgyzstan</option>
+          <option> Laos</option>
+          <option> Latvia</option>
+          <option> Lebanon</option>
+          <option> Lesotho</option>
+          <option> Liberia</option>
+          <option> Libya</option>
+          <option> Liechtenstein</option>
+          <option> Lithuania</option>
+          <option> Luxembourg</option>
+          <option> Macau</option>
+          <option> Madagascar</option>
+          <option> Malawi</option>
+          <option> Malaysia</option>
+          <option> Maldives</option>
+          <option> Mali</option>
+          <option> Malta</option>
+          <option> Marshall Islands</option>
+          <option> Martinique</option>
+          <option> Mauritania</option>
+          <option> Mauritius</option>
+          <option> Mayotte</option>
+          <option> Mexico</option>
+          <option> Micronesia</option>
+          <option> Moldova</option>
+          <option> Monaco</option>
+          <option> Mongolia</option>
+          <option> Montenegro</option>
+          <option> Montserrat</option>
+          <option> Morocco</option>
+          <option> Mozambique</option>
+          <option> Myanmar</option>
+          <option> Namibia</option>
+          <option> Nauru</option>
+          <option> Nepal</option>
+          <option> Netherlands</option>
+          <option> New Caledonia</option>
+          <option> New Zealand</option>
+          <option> Nicaragua</option>
+          <option> Niger</option>
+          <option> Nigeria</option>
+          <option> Niue</option>
+          <option> Norfolk Island</option>
+          <option> North Macedonia</option>
+          <option> Northern Mariana Islands</option>
+          <option> Norway</option>
+          <option> Oman</option>
+          <option> Pakistan</option>
+          <option> Palau</option>
+          <option> Palestine</option>
+          <option> Panama</option>
+          <option> Papua New Guinea</option>
+          <option> Paraguay</option>
+          <option> Peru</option>
+          <option> Philippines</option>
+          <option> Pitcairn Islands</option>
+          <option> Poland</option>
+          <option> Portugal</option>
+          <option> Puerto Rico</option>
+          <option> Qatar</option>
+          <option> Réunion</option>
+          <option> Romania</option>
+          <option> Russia</option>
+          <option> Rwanda</option>
+          <option> Saint Barthélemy</option>
+          <option> Saint Helena, Ascension and Tristan da Cunha</option>
+          <option> Saint Kitts and Nevis</option>
+          <option> Saint Lucia</option>
+          <option> Saint Martin</option>
+          <option> Saint Pierre and Miquelon</option>
+          <option> Saint Vincent and the Grenadines</option>
+          <option> Samoa</option>
+          <option> San Marino</option>
+          <option> São Tomé and Príncipe</option>
+          <option> Saudi Arabia</option>
+          <option>fla Scotland</option>
+          <option> Senegal</option>
+          <option> Serbia</option>
+          <option> Seychelles</option>
+          <option> Sierra Leone</option>
+          <option> Singapore</option>
+          <option> Sint Maarten</option>
+          <option> Slovakia</option>
+          <option> Slovenia</option>
+          <option> Solomon Islands</option>
+          <option> Somalia</option>
+          <option> South Africa</option>
+          <option> South Georgia</option>
+          <option> South Sudan</option>
+          <option> Spain</option>
+          <option> Sri Lanka</option>
+          <option> Sudan</option>
+          <option> Suriname</option>
+          <option> Svalbard and Jan Mayen</option>
+          <option> Sweden</option>
+          <option> Switzerland</option>
+          <option> Syria</option>
+          <option> Taiwan</option>
+          <option> Tajikistan</option>
+          <option> Tanzania</option>
+          <option> Thailand</option>
+          <option> Timor-Leste</option>
+          <option> Togo</option>
+          <option> Tokelau</option>
+          <option> Tonga</option>
+          <option> Trinidad and Tobago</option>
+          <option> Tunisia</option>
+          <option> Turkey</option>
+          <option> Turkmenistan</option>
+          <option> Turks and Caicos Islands</option>
+          <option> Tuvalu</option>
+          <option> Uganda</option>
+          <option> Ukraine</option>
+          <option> United Arab Emirates</option>
+          <option> United Kingdom</option>
+          <option> United States</option>
+          <option> United States Minor Outlying Islands</option>
+          <option> Uruguay</option>
+          <option> Uzbekistan</option>
+          <option> Vanuatu</option>
+          <option> Vatican City (Holy See)</option>
+          <option> Venezuela</option>
+          <option> Vietnam</option>
+          <option> British Virgin Islands</option>
+          <option> United States Virgin Islands</option>
+          <option>fla Wales</option>
+          <option> Wallis and Futuna</option>
+          <option> Western Sahara</option>
+          <option> Yemen</option>
+          <option> Zambia</option>
+          <option> Zimbabwe</option>
+          
+
+        </select>
+      </div>
+      <div class="question">
+        <label for="Current-role">What is your
+          work experience? </label>
+        <!-- <input type="text" class="form-control" id="qty3"> -->
+        <select class="">
+          <option>New hire</option>
+          <option>New to Role</option>
+          <option>New in the Project</option>
+          <option>New to Therapeutic Area</option>
+          <option>All</option>
+
+        </select>
+      </div>
+      <div class="question">
+        <label for="Current-role">On which
+          clinical study program type are you working? </label>
+        <!-- <input type="text" class="form-control" id="qty4"> -->
+        <select class="">
+          <option>I</option>
+          <option>II</option>
+          <option>III</option>
+          <option>IV</option>
+          <option>All</option>
+        </select>
+      </div>
+      <div class="question">
+        <label for="Current-role">On which
+          study milestone are you working? </label>
+        <!-- <input type="text" class="form-control" id="qty5"> -->
+        <select class="">
+          <option>Planning and Defination</option>
+          <option>Study Startup</option>
+          <option>Study Conduct</option>
+          <option>Closeout</option>
+          <option>Analysis</option>
+          <option> Transversal (All Steps)</option>
+        </select>
+      </div>
+      <div class="question">
+        <label for="Current-role">On which
+          study are you working(to derive product, TA, therapeutic indication) </label>
+        <!-- <input type="text" class="form-control" id="qty6"> -->
+        <select class="">
+          <option>Study ID 12345</option>
+          <option>Study ID 87654</option>
+          <option>Study ID 76543</option>
+          <option>Study ID 34562</option>
+          <option>Study ID 65432</option>
+        </select>
+      </div>
+      <div class="text-center">
+        <button type="button" class="btn submit">Submit</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- js block -->
+  <script src="js/jquery-3.6.0.slim.min.js"></script>
+  <script src="js/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="js/tree2.js"></script>
+  <!-- <script src="js/tree.js"></script> -->
+  <script src="js/custom.js"></script>
+
+</body>
+
+</html>

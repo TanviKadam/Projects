@@ -1,0 +1,1357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- TODO change viewport link -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+
+  <!-- fonts -->
+
+  <!-- css file -->
+  <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/fontawesome-free-5.15.4-web/css/all.min.css">
+  
+</head>
+
+<body>
+
+  <div class=" layout-container layout-grid">
+    <div class="logo-brand">
+      <div class="logo">
+        <img src="assets/images/Sanofi_logo_horizontal.png" alt="Logo Image">
+      </div>
+      <div class="login-text">
+        <h3>My Knowledge Management System</h3>
+        <p class="headline">Hello Sarah Wilkinson!</p> <br><p class="headline1">Welcome to your personalized Knowledge Management System. KMS shows relevant
+          content, tailored to your personal needs.</p>
+      </div>
+      <div class="login-panel">
+        <!-- <form> -->
+          <div class="owl-carousel owl-theme">
+
+            <!-- 1st Question -->
+            <div class="item">
+              <div>
+                <p>What is your current role?</p>
+                <input type="hidden" id="qty1" value=""/>
+
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle w-100" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span>Global Study Manager (GMS) Trial Operations- Pharma</span>
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <label for="First">
+                      <input type="radio" id="first" name="qty1" 
+                        value="Global Study Manager (GMS) Trial Operations- Pharma" 
+                        checked
+                        />
+                      Global Study Manager (GMS) Trial Operations- Pharma
+                    </label>
+                    <label for="second">
+                      <input type="radio" id="second" name="qty1" value="Data Manager" />
+                      Data Manager
+                    </label>
+                    <label for="Third">
+                      <input type="radio" id="Third" name="qty1" value="CRA" />
+                      CRA
+                    </label>
+                    <!-- <label for="fourth">
+                      <input type="radio" id="fourth" name="qty1" value="EMEA-FR" />
+                      EMEA-FR
+                    </label>
+                    <label for="fifth">
+                      <input type="radio" id="fifth" name="qty1" value="New hire"/>
+                      New hire
+                    </label>
+                    <label for="sixth">
+                      <input type="radio" id="sixth" name="qty1" value="Planning and Definition"/>
+                      Planning and Definition
+                    </label>
+                    <label for="Seventh">
+                      <input type="radio" id="Seventh" name="qty1" value="Study ID 12345" />
+                    Study ID 12345
+                    </label> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- 2nd Question -->
+            <div class="item">
+              <p>What is your current Region/Country?</p>
+              <input type="hidden" id="qty2" value=""/>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle w-100" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span>United States</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <!-- <label for="First">
+                    <input type="radio" id="first" name="qty2" value="Global Study Manager (GMS) Trial Operations- Pharma" />
+                    Global Study Manager (GMS) Trial Operations- Pharma
+                  </label>
+                  <label for="Second">
+                    <input type="radio" id="second" name="qty2" value="Data Manager" />
+                    Data Manager
+                  </label>
+                  <label for="Third">
+                    <input type="radio" id="Third" name="qty2" value="CRA" />
+                    CRA
+                  </label> -->
+                  <label for="🇦🇫">
+                    <input type="radio" id="🇦🇫" checked name="country" value="Afghanistan" />
+                    Afghanistan
+                </label>
+                <label for="🇦🇽">
+                    <input type="radio" id="🇦🇽" name="country" value="Åland Islands" />
+                    Åland Islands
+                </label>
+                <label for="🇦🇱">
+                    <input type="radio" id="🇦🇱" name="country" value="Albania" />
+                    Albania
+                </label>
+                <label for="🇩🇿">
+                    <input type="radio" id="🇩🇿" name="country" value="Algeria" />
+                    Algeria
+                </label>
+                <label for="🇦🇸">
+                    <input type="radio" id="🇦🇸" name="country" value="American Samoa" />
+                    American Samoa
+                </label>
+                <label for="🇦🇩">
+                    <input type="radio" id="🇦🇩" name="country" value="Andorra" />
+                    Andorra
+                </label>
+                <label for="🇦🇴">
+                    <input type="radio" id="🇦🇴" name="country" value="Angola" />
+                    Angola
+                </label>
+                <label for="🇦🇮">
+                    <input type="radio" id="🇦🇮" name="country" value="Anguilla" />
+                    Anguilla
+                </label>
+                <label for="🇦🇶">
+                    <input type="radio" id="🇦🇶" name="country" value="Antarctica" />
+                    Antarctica
+                </label>
+                <label for="🇦🇬">
+                    <input type="radio" id="🇦🇬" name="country" value="Antigua and Barbuda" />
+                    Antigua and Barbuda
+                </label>
+                <label for="🇦🇷">
+                    <input type="radio" id="🇦🇷" name="country" value="Argentina" />
+                    Argentina
+                </label>
+                <label for="🇦🇲">
+                    <input type="radio" id="🇦🇲" name="country" value="Armenia" />
+                    Armenia
+                </label>
+                <label for="🇦🇼">
+                    <input type="radio" id="🇦🇼" name="country" value="Aruba" />
+                    Aruba
+                </label>
+                <label for="🇦🇺">
+                    <input type="radio" id="🇦🇺" name="country" value="Australia" />
+                    Australia
+                </label>
+                <label for="🇦🇹">
+                    <input type="radio" id="🇦🇹" name="country" value="Austria" />
+                    Austria
+                </label>
+                <label for="🇦🇿">
+                    <input type="radio" id="🇦🇿" name="country" value="Azerbaijan" />
+                    Azerbaijan
+                </label>
+                <label for="🇧🇸">
+                    <input type="radio" id="🇧🇸" name="country" value="Bahamas" />
+                    Bahamas
+                </label>
+                <label for="🇧🇭">
+                    <input type="radio" id="🇧🇭" name="country" value="Bahrain" />
+                    Bahrain
+                </label>
+                <label for="🇧🇩">
+                    <input type="radio" id="🇧🇩" name="country" value="Bangladesh" />
+                    Bangladesh
+                </label>
+                <label for="🇧🇧">
+                    <input type="radio" id="🇧🇧" name="country" value="Barbados" />
+                    Barbados
+                </label>
+                <label for="🇧🇾">
+                    <input type="radio" id="🇧🇾" name="country" value="Belarus" />
+                    Belarus
+                </label>
+                <label for="🇧🇪">
+                    <input type="radio" id="🇧🇪" name="country" value="Belgium" />
+                    Belgium
+                </label>
+                <label for="🇧🇿">
+                    <input type="radio" id="🇧🇿" name="country" value="Belize" />
+                    Belize
+                </label>
+                <label for="🇧🇯">
+                    <input type="radio" id="🇧🇯" name="country" value="Benin" />
+                    Benin
+                </label>
+                <label for="🇧🇲">
+                    <input type="radio" id="🇧🇲" name="country" value="Bermuda" />
+                    Bermuda
+                </label>
+                <label for="🇧🇹">
+                    <input type="radio" id="🇧🇹" name="country" value="Bhutan" />
+                    Bhutan
+                </label>
+                <label for="🇧🇴">
+                    <input type="radio" id="🇧🇴" name="country" value="Bolivia" />
+                    Bolivia
+                </label>
+                <label for="🇧🇦">
+                    <input type="radio" id="🇧🇦" name="country" value="Bosnia and Herzegovina" />
+                    Bosnia and Herzegovina
+                </label>
+                <label for="🇧🇼">
+                    <input type="radio" id="🇧🇼" name="country" value="Botswana" />
+                    Botswana
+                </label>
+                <label for="🇧🇻">
+                    <input type="radio" id="🇧🇻" name="country" value="Bouvet Island" />
+                    Bouvet Island
+                </label>
+                <label for="🇧🇷">
+                    <input type="radio" id="🇧🇷" name="country" value="Brazil" />
+                    Brazil
+                </label>
+                <label for="🇮🇴">
+                    <input type="radio" id="🇮🇴" name="country" value="British Indian Ocean Territory" />
+                    British Indian Ocean Territory
+                </label>
+                <label for="🇧🇳">
+                    <input type="radio" id="🇧🇳" name="country" value="Brunei" />
+                    Brunei
+                </label>
+                <label for="🇧🇬">
+                    <input type="radio" id="🇧🇬" name="country" value="Bulgaria" />
+                    Bulgaria
+                </label>
+                <label for="🇧🇫">
+                    <input type="radio" id="🇧🇫" name="country" value="Burkina Faso" />
+                    Burkina Faso
+                </label>
+                <label for="🇧🇮">
+                    <input type="radio" id="🇧🇮" name="country" value="Burundi" />
+                    Burundi
+                </label>
+                <label for="🇰🇭">
+                    <input type="radio" id="🇰🇭" name="country" value="Cambodia" />
+                    Cambodia
+                </label>
+                <label for="🇨🇲">
+                    <input type="radio" id="🇨🇲" name="country" value="Cameroon" />
+                    Cameroon
+                </label>
+                <label for="🇨🇦">
+                    <input type="radio" id="🇨🇦" name="country" value="Canada" />
+                    Canada
+                </label>
+                <label for="🇨🇻">
+                    <input type="radio" id="🇨🇻" name="country" value="Cape Verde" />
+                    Cape Verde
+                </label>
+                <label for="🇧🇶">
+                    <input type="radio" id="🇧🇶" name="country" value="Caribbean Netherlands" />
+                    Caribbean Netherlands
+                </label>
+                <label for="🇰🇾">
+                    <input type="radio" id="🇰🇾" name="country" value="Cayman Islands" />
+                    Cayman Islands
+                </label>
+                <label for="🇨🇫">
+                    <input type="radio" id="🇨🇫" name="country" value="Central African Republic" />
+                    Central African Republic
+                </label>
+                <label for="🇹🇩">
+                    <input type="radio" id="🇹🇩" name="country" value="Chad" />
+                    Chad
+                </label>
+                <label for="🇨🇱">
+                    <input type="radio" id="🇨🇱" name="country" value="Chile" />
+                    Chile
+                </label>
+                <label for="🇨🇳">
+                    <input type="radio" id="🇨🇳" name="country" value="China" />
+                    China
+                </label>
+                <label for="🇨🇽">
+                    <input type="radio" id="🇨🇽" name="country" value="Christmas Island" />
+                    Christmas Island
+                </label>
+                <label for="🇨🇨">
+                    <input type="radio" id="🇨🇨" name="country" value="Cocos (Keeling) Islands" />
+                    Cocos (Keeling) Islands
+                </label>
+                <label for="🇨🇴">
+                    <input type="radio" id="🇨🇴" name="country" value="Colombia" />
+                    Colombia
+                </label>
+                <label for="🇰🇲">
+                    <input type="radio" id="🇰🇲" name="country" value="Comoros" />
+                    Comoros
+                </label>
+                <label for="🇨🇬">
+                    <input type="radio" id="🇨🇬" name="country" value="Republic of the Congo" />
+                    Republic of the Congo
+                </label>
+                <label for="🇨🇩">
+                    <input type="radio" id="🇨🇩" name="country" value="DR Congo" />
+                    DR Congo
+                </label>
+                <label for="🇨🇰">
+                    <input type="radio" id="🇨🇰" name="country" value="Cook Islands" />
+                    Cook Islands
+                </label>
+                <label for="🇨🇷">
+                    <input type="radio" id="🇨🇷" name="country" value="Costa Rica" />
+                    Costa Rica
+                </label>
+                <label for="🇨🇮">
+                    <input type="radio" id="🇨🇮" name="country" value="Côte d'Ivoire (Ivory Coast)" />
+                    Côte d'Ivoire (Ivory Coast)
+                </label>
+                <label for="🇭🇷">
+                    <input type="radio" id="🇭🇷" name="country" value="Croatia" />
+                    Croatia
+                </label>
+                <label for="🇨🇺">
+                    <input type="radio" id="🇨🇺" name="country" value="Cuba" />
+                    Cuba
+                </label>
+                <label for="🇨🇼">
+                    <input type="radio" id="🇨🇼" name="country" value="Curaçao" />
+                    Curaçao
+                </label>
+                <label for="🇨🇾">
+                    <input type="radio" id="🇨🇾" name="country" value="Cyprus" />
+                    Cyprus
+                </label>
+                <label for="🇨🇿">
+                    <input type="radio" id="🇨🇿" name="country" value="Czechia" />
+                    Czechia
+                </label>
+                <label for="🇩🇰">
+                    <input type="radio" id="🇩🇰" name="country" value="Denmark" />
+                    Denmark
+                </label>
+                <label for="🇩🇯">
+                    <input type="radio" id="🇩🇯" name="country" value="Djibouti" />
+                    Djibouti
+                </label>
+                <label for="🇩🇲">
+                    <input type="radio" id="🇩🇲" name="country" value="Dominica" />
+                    Dominica
+                </label>
+                <label for="🇩🇴">
+                    <input type="radio" id="🇩🇴" name="country" value="Dominican Republic" />
+                    Dominican Republic
+                </label>
+                <label for="🇪🇨">
+                    <input type="radio" id="🇪🇨" name="country" value="Ecuador" />
+                    Ecuador
+                </label>
+                <label for="🇪🇬">
+                    <input type="radio" id="🇪🇬" name="country" value="Egypt" />
+                    Egypt
+                </label>
+                <label for="🇸🇻">
+                    <input type="radio" id="🇸🇻" name="country" value="El Salvador" />
+                    El Salvador
+                </label>
+                <label for="🏴󠁧󠁢󠁥󠁮󠁧󠁿">
+                    <input type="radio" id="🏴󠁧󠁢󠁥󠁮󠁧󠁿" name="country" value="England" />
+                    England
+                </label>
+                <label for="🇬🇶">
+                    <input type="radio" id="🇬🇶" name="country" value="Equatorial Guinea" />
+                    Equatorial Guinea
+                </label>
+                <label for="🇪🇷">
+                    <input type="radio" id="🇪🇷" name="country" value="Eritrea" />
+                    Eritrea
+                </label>
+                <label for="🇪🇪">
+                    <input type="radio" id="🇪🇪" name="country" value="Estonia" />
+                    Estonia
+                </label>
+                <label for="🇸🇿">
+                    <input type="radio" id="🇸🇿" name="country" value="Eswatini (Swaziland)" />
+                    Eswatini (Swaziland)
+                </label>
+                <label for="🇪🇹">
+                    <input type="radio" id="🇪🇹" name="country" value="Ethiopia" />
+                    Ethiopia
+                </label>
+                <label for="🇫🇰">
+                    <input type="radio" id="🇫🇰" name="country" value="Falkland Islands" />
+                    Falkland Islands
+                </label>
+                <label for="🇫🇴">
+                    <input type="radio" id="🇫🇴" name="country" value="Faroe Islands" />
+                    Faroe Islands
+                </label>
+                <label for="🇫🇯">
+                    <input type="radio" id="🇫🇯" name="country" value="Fiji" />
+                    Fiji
+                </label>
+                <label for="🇫🇮">
+                    <input type="radio" id="🇫🇮" name="country" value="Finland" />
+                    Finland
+                </label>
+                <label for="🇫🇷">
+                    <input type="radio" id="🇫🇷" name="country" value="France" />
+                    France
+                </label>
+                <label for="🇬🇫">
+                    <input type="radio" id="🇬🇫" name="country" value="French Guiana" />
+                    French Guiana
+                </label>
+                <label for="🇵🇫">
+                    <input type="radio" id="🇵🇫" name="country" value="French Polynesia" />
+                    French Polynesia
+                </label>
+                <label for="🇹🇫">
+                    <input type="radio" id="🇹🇫" name="country" value="French Southern and Antarctic Lands" />
+                    French Southern and Antarctic Lands
+                </label>
+                <label for="🇬🇦">
+                    <input type="radio" id="🇬🇦" name="country" value="Gabon" />
+                    Gabon
+                </label>
+                <label for="🇬🇲">
+                    <input type="radio" id="🇬🇲" name="country" value="Gambia" />
+                    Gambia
+                </label>
+                <label for="🇬🇪">
+                    <input type="radio" id="🇬🇪" name="country" value="Georgia" />
+                    Georgia
+                </label>
+                <label for="🇩🇪">
+                    <input type="radio" id="🇩🇪" name="country" value="Germany" />
+                    Germany
+                </label>
+                <label for="🇬🇭">
+                    <input type="radio" id="🇬🇭" name="country" value="Ghana" />
+                    Ghana
+                </label>
+                <label for="🇬🇮">
+                    <input type="radio" id="🇬🇮" name="country" value="Gibraltar" />
+                    Gibraltar
+                </label>
+                <label for="🇬🇷">
+                    <input type="radio" id="🇬🇷" name="country" value="Greece" />
+                    Greece
+                </label>
+                <label for="🇬🇱">
+                    <input type="radio" id="🇬🇱" name="country" value="Greenland" />
+                    Greenland
+                </label>
+                <label for="🇬🇩">
+                    <input type="radio" id="🇬🇩" name="country" value="Grenada" />
+                    Grenada
+                </label>
+                <label for="🇬🇵">
+                    <input type="radio" id="🇬🇵" name="country" value="Guadeloupe" />
+                    Guadeloupe
+                </label>
+                <label for="🇬🇺">
+                    <input type="radio" id="🇬🇺" name="country" value="Guam" />
+                    Guam
+                </label>
+                <label for="🇬🇹">
+                    <input type="radio" id="🇬🇹" name="country" value="Guatemala" />
+                    Guatemala
+                </label>
+                <label for="🇬🇬">
+                    <input type="radio" id="🇬🇬" name="country" value="Guernsey" />
+                    Guernsey
+                </label>
+                <label for="🇬🇳">
+                    <input type="radio" id="🇬🇳" name="country" value="Guinea" />
+                    Guinea
+                </label>
+                <label for="🇬🇼">
+                    <input type="radio" id="🇬🇼" name="country" value="Guinea-Bissau" />
+                    Guinea-Bissau
+                </label>
+                <label for="🇬🇾">
+                    <input type="radio" id="🇬🇾" name="country" value="Guyana" />
+                    Guyana
+                </label>
+                <label for="🇭🇹">
+                    <input type="radio" id="🇭🇹" name="country" value="Haiti" />
+                    Haiti
+                </label>
+                <label for="🇭🇲">
+                    <input type="radio" id="🇭🇲" name="country" value="Heard Island and McDonald Islands" />
+                    Heard Island and McDonald Islands
+                </label>
+                <label for="🇭🇳">
+                    <input type="radio" id="🇭🇳" name="country" value="Honduras" />
+                    Honduras
+                </label>
+                <label for="🇭🇰">
+                    <input type="radio" id="🇭🇰" name="country" value="Hong Kong" />
+                    Hong Kong
+                </label>
+                <label for="🇭🇺">
+                    <input type="radio" id="🇭🇺" name="country" value="Hungary" />
+                    Hungary
+                </label>
+                <label for="🇮🇸">
+                    <input type="radio" id="🇮🇸" name="country" value="Iceland" />
+                    Iceland
+                </label>
+                <label for="🇮🇳">
+                    <input type="radio" id="🇮🇳" name="country" value="India" />
+                    India
+                </label>
+                <label for="🇮🇩">
+                    <input type="radio" id="🇮🇩" name="country" value="Indonesia" />
+                    Indonesia
+                </label>
+                <label for="🇮🇷">
+                    <input type="radio" id="🇮🇷" name="country" value="Iran" />
+                    Iran
+                </label>
+                <label for="🇮🇶">
+                    <input type="radio" id="🇮🇶" name="country" value="Iraq" />
+                    Iraq
+                </label>
+                <label for="🇮🇪">
+                    <input type="radio" id="🇮🇪" name="country" value="Ireland" />
+                    Ireland
+                </label>
+                <label for="🇮🇲">
+                    <input type="radio" id="🇮🇲" name="country" value="Isle of Man" />
+                    Isle of Man
+                </label>
+                <label for="🇮🇱">
+                    <input type="radio" id="🇮🇱" name="country" value="Israel" />
+                    Israel
+                </label>
+                <label for="🇮🇹">
+                    <input type="radio" id="🇮🇹" name="country" value="Italy" />
+                    Italy
+                </label>
+                <label for="🇯🇲">
+                    <input type="radio" id="🇯🇲" name="country" value="Jamaica" />
+                    Jamaica
+                </label>
+                <label for="🇯🇵">
+                    <input type="radio" id="🇯🇵" name="country" value="Japan" />
+                    Japan
+                </label>
+                <label for="🇯🇪">
+                    <input type="radio" id="🇯🇪" name="country" value="Jersey" />
+                    Jersey
+                </label>
+                <label for="🇯🇴">
+                    <input type="radio" id="🇯🇴" name="country" value="Jordan" />
+                    Jordan
+                </label>
+                <label for="🇰🇿">
+                    <input type="radio" id="🇰🇿" name="country" value="Kazakhstan" />
+                    Kazakhstan
+                </label>
+                <label for="🇰🇪">
+                    <input type="radio" id="🇰🇪" name="country" value="Kenya" />
+                    Kenya
+                </label>
+                <label for="🇰🇮">
+                    <input type="radio" id="🇰🇮" name="country" value="Kiribati" />
+                    Kiribati
+                </label>
+                <label for="🇰🇵">
+                    <input type="radio" id="🇰🇵" name="country" value="North Korea" />
+                    North Korea
+                </label>
+                <label for="🇰🇷">
+                    <input type="radio" id="🇰🇷" name="country" value="South Korea" />
+                    South Korea
+                </label>
+                <label for="🇽🇰">
+                    <input type="radio" id="🇽🇰" name="country" value="Kosovo" />
+                    Kosovo
+                </label>
+                <label for="🇰🇼">
+                    <input type="radio" id="🇰🇼" name="country" value="Kuwait" />
+                    Kuwait
+                </label>
+                <label for="🇰🇬">
+                    <input type="radio" id="🇰🇬" name="country" value="Kyrgyzstan" />
+                    Kyrgyzstan
+                </label>
+                <label for="🇱🇦">
+                    <input type="radio" id="🇱🇦" name="country" value="Laos" />
+                    Laos
+                </label>
+                <label for="🇱🇻">
+                    <input type="radio" id="🇱🇻" name="country" value="Latvia" />
+                    Latvia
+                </label>
+                <label for="🇱🇧">
+                    <input type="radio" id="🇱🇧" name="country" value="Lebanon" />
+                    Lebanon
+                </label>
+                <label for="🇱🇸">
+                    <input type="radio" id="🇱🇸" name="country" value="Lesotho" />
+                    Lesotho
+                </label>
+                <label for="🇱🇷">
+                    <input type="radio" id="🇱🇷" name="country" value="Liberia" />
+                    Liberia
+                </label>
+                <label for="🇱🇾">
+                    <input type="radio" id="🇱🇾" name="country" value="Libya" />
+                    Libya
+                </label>
+                <label for="🇱🇮">
+                    <input type="radio" id="🇱🇮" name="country" value="Liechtenstein" />
+                    Liechtenstein
+                </label>
+                <label for="🇱🇹">
+                    <input type="radio" id="🇱🇹" name="country" value="Lithuania" />
+                    Lithuania
+                </label>
+                <label for="🇱🇺">
+                    <input type="radio" id="🇱🇺" name="country" value="Luxembourg" />
+                    Luxembourg
+                </label>
+                <label for="🇲🇴">
+                    <input type="radio" id="🇲🇴" name="country" value="Macau" />
+                    Macau
+                </label>
+                <label for="🇲🇬">
+                    <input type="radio" id="🇲🇬" name="country" value="Madagascar" />
+                    Madagascar
+                </label>
+                <label for="🇲🇼">
+                    <input type="radio" id="🇲🇼" name="country" value="Malawi" />
+                    Malawi
+                </label>
+                <label for="🇲🇾">
+                    <input type="radio" id="🇲🇾" name="country" value="Malaysia" />
+                    Malaysia
+                </label>
+                <label for="🇲🇻">
+                    <input type="radio" id="🇲🇻" name="country" value="Maldives" />
+                    Maldives
+                </label>
+                <label for="🇲🇱">
+                    <input type="radio" id="🇲🇱" name="country" value="Mali" />
+                    Mali
+                </label>
+                <label for="🇲🇹">
+                    <input type="radio" id="🇲🇹" name="country" value="Malta" />
+                    Malta
+                </label>
+                <label for="🇲🇭">
+                    <input type="radio" id="🇲🇭" name="country" value="Marshall Islands" />
+                    Marshall Islands
+                </label>
+                <label for="🇲🇶">
+                    <input type="radio" id="🇲🇶" name="country" value="Martinique" />
+                    Martinique
+                </label>
+                <label for="🇲🇷">
+                    <input type="radio" id="🇲🇷" name="country" value="Mauritania" />
+                    Mauritania
+                </label>
+                <label for="🇲🇺">
+                    <input type="radio" id="🇲🇺" name="country" value="Mauritius" />
+                    Mauritius
+                </label>
+                <label for="🇾🇹">
+                    <input type="radio" id="🇾🇹" name="country" value="Mayotte" />
+                    Mayotte
+                </label>
+                <label for="🇲🇽">
+                    <input type="radio" id="🇲🇽" name="country" value="Mexico" />
+                    Mexico
+                </label>
+                <label for="🇫🇲">
+                    <input type="radio" id="🇫🇲" name="country" value="Micronesia" />
+                    Micronesia
+                </label>
+                <label for="🇲🇩">
+                    <input type="radio" id="🇲🇩" name="country" value="Moldova" />
+                    Moldova
+                </label>
+                <label for="🇲🇨">
+                    <input type="radio" id="🇲🇨" name="country" value="Monaco" />
+                    Monaco
+                </label>
+                <label for="🇲🇳">
+                    <input type="radio" id="🇲🇳" name="country" value="Mongolia" />
+                    Mongolia
+                </label>
+                <label for="🇲🇪">
+                    <input type="radio" id="🇲🇪" name="country" value="Montenegro" />
+                    Montenegro
+                </label>
+                <label for="🇲🇸">
+                    <input type="radio" id="🇲🇸" name="country" value="Montserrat" />
+                    Montserrat
+                </label>
+                <label for="🇲🇦">
+                    <input type="radio" id="🇲🇦" name="country" value="Morocco" />
+                    Morocco
+                </label>
+                <label for="🇲🇿">
+                    <input type="radio" id="🇲🇿" name="country" value="Mozambique" />
+                    Mozambique
+                </label>
+                <label for="🇲🇲">
+                    <input type="radio" id="🇲🇲" name="country" value="Myanmar" />
+                    Myanmar
+                </label>
+                <label for="🇳🇦">
+                    <input type="radio" id="🇳🇦" name="country" value="Namibia" />
+                    Namibia
+                </label>
+                <label for="🇳🇷">
+                    <input type="radio" id="🇳🇷" name="country" value="Nauru" />
+                    Nauru
+                </label>
+                <label for="🇳🇵">
+                    <input type="radio" id="🇳🇵" name="country" value="Nepal" />
+                    Nepal
+                </label>
+                <label for="🇳🇱">
+                    <input type="radio" id="🇳🇱" name="country" value="Netherlands" />
+                    Netherlands
+                </label>
+                <label for="🇳🇨">
+                    <input type="radio" id="🇳🇨" name="country" value="New Caledonia" />
+                    New Caledonia
+                </label>
+                <label for="🇳🇿">
+                    <input type="radio" id="🇳🇿" name="country" value="New Zealand" />
+                    New Zealand
+                </label>
+                <label for="🇳🇮">
+                    <input type="radio" id="🇳🇮" name="country" value="Nicaragua" />
+                    Nicaragua
+                </label>
+                <label for="🇳🇪">
+                    <input type="radio" id="🇳🇪" name="country" value="Niger" />
+                    Niger
+                </label>
+                <label for="🇳🇬">
+                    <input type="radio" id="🇳🇬" name="country" value="Nigeria" />
+                    Nigeria
+                </label>
+                <label for="🇳🇺">
+                    <input type="radio" id="🇳🇺" name="country" value="Niue" />
+                    Niue
+                </label>
+                <label for="🇳🇫">
+                    <input type="radio" id="🇳🇫" name="country" value="Norfolk Island" />
+                    Norfolk Island
+                </label>
+                <label for="🇲🇰">
+                    <input type="radio" id="🇲🇰" name="country" value="North Macedonia" />
+                    North Macedonia
+                </label>
+                <label for="🇲🇵">
+                    <input type="radio" id="🇲🇵" name="country" value="Northern Mariana Islands" />
+                    Northern Mariana Islands
+                </label>
+                <label for="🇳🇴">
+                    <input type="radio" id="🇳🇴" name="country" value="Norway" />
+                    Norway
+                </label>
+                <label for="🇴🇲">
+                    <input type="radio" id="🇴🇲" name="country" value="Oman" />
+                    Oman
+                </label>
+                <label for="🇵🇰">
+                    <input type="radio" id="🇵🇰" name="country" value="Pakistan" />
+                    Pakistan
+                </label>
+                <label for="🇵🇼">
+                    <input type="radio" id="🇵🇼" name="country" value="Palau" />
+                    Palau
+                </label>
+                <label for="🇵🇸">
+                    <input type="radio" id="🇵🇸" name="country" value="Palestine" />
+                    Palestine
+                </label>
+                <label for="🇵🇦">
+                    <input type="radio" id="🇵🇦" name="country" value="Panama" />
+                    Panama
+                </label>
+                <label for="🇵🇬">
+                    <input type="radio" id="🇵🇬" name="country" value="Papua New Guinea" />
+                    Papua New Guinea
+                </label>
+                <label for="🇵🇾">
+                    <input type="radio" id="🇵🇾" name="country" value="Paraguay" />
+                    Paraguay
+                </label>
+                <label for="🇵🇪">
+                    <input type="radio" id="🇵🇪" name="country" value="Peru" />
+                    Peru
+                </label>
+                <label for="🇵🇭">
+                    <input type="radio" id="🇵🇭" name="country" value="Philippines" />
+                    Philippines
+                </label>
+                <label for="🇵🇳">
+                    <input type="radio" id="🇵🇳" name="country" value="Pitcairn Islands" />
+                    Pitcairn Islands
+                </label>
+                <label for="🇵🇱">
+                    <input type="radio" id="🇵🇱" name="country" value="Poland" />
+                    Poland
+                </label>
+                <label for="🇵🇹">
+                    <input type="radio" id="🇵🇹" name="country" value="Portugal" />
+                    Portugal
+                </label>
+                <label for="🇵🇷">
+                    <input type="radio" id="🇵🇷" name="country" value="Puerto Rico" />
+                    Puerto Rico
+                </label>
+                <label for="🇶🇦">
+                    <input type="radio" id="🇶🇦" name="country" value="Qatar" />
+                    Qatar
+                </label>
+                <label for="🇷🇪">
+                    <input type="radio" id="🇷🇪" name="country" value="Réunion" />
+                    Réunion
+                </label>
+                <label for="🇷🇴">
+                    <input type="radio" id="🇷🇴" name="country" value="Romania" />
+                    Romania
+                </label>
+                <label for="🇷🇺">
+                    <input type="radio" id="🇷🇺" name="country" value="Russia" />
+                    Russia
+                </label>
+                <label for="🇷🇼">
+                    <input type="radio" id="🇷🇼" name="country" value="Rwanda" />
+                    Rwanda
+                </label>
+                <label for="🇧🇱">
+                    <input type="radio" id="🇧🇱" name="country" value="Saint Barthélemy" />
+                    Saint Barthélemy
+                </label>
+                <label for="🇸🇭">
+                    <input type="radio" id="🇸🇭" name="country" value="Saint Helena, Ascension and Tristan da Cunha" />
+                    Saint Helena, Ascension and Tristan da Cunha
+                </label>
+                <label for="🇰🇳">
+                    <input type="radio" id="🇰🇳" name="country" value="Saint Kitts and Nevis" />
+                    Saint Kitts and Nevis
+                </label>
+                <label for="🇱🇨">
+                    <input type="radio" id="🇱🇨" name="country" value="Saint Lucia" />
+                    Saint Lucia
+                </label>
+                <label for="🇲🇫">
+                    <input type="radio" id="🇲🇫" name="country" value="Saint Martin" />
+                    Saint Martin
+                </label>
+                <label for="🇵🇲">
+                    <input type="radio" id="🇵🇲" name="country" value="Saint Pierre and Miquelon" />
+                    Saint Pierre and Miquelon
+                </label>
+                <label for="🇻🇨">
+                    <input type="radio" id="🇻🇨" name="country" value="Saint Vincent and the Grenadines" />
+                    Saint Vincent and the Grenadines
+                </label>
+                <label for="🇼🇸">
+                    <input type="radio" id="🇼🇸" name="country" value="Samoa" />
+                    Samoa
+                </label>
+                <label for="🇸🇲">
+                    <input type="radio" id="🇸🇲" name="country" value="San Marino" />
+                    San Marino
+                </label>
+                <label for="🇸🇹">
+                    <input type="radio" id="🇸🇹" name="country" value="São Tomé and Príncipe" />
+                    São Tomé and Príncipe
+                </label>
+                <label for="🇸🇦">
+                    <input type="radio" id="🇸🇦" name="country" value="Saudi Arabia" />
+                    Saudi Arabia
+                </label>
+                <label for="🏴󠁧󠁢󠁳󠁣󠁴󠁿">
+                    <input type="radio" id="🏴󠁧󠁢󠁳󠁣󠁴󠁿" name="country" value="Scotland" />
+                    Scotland
+                </label>
+                <label for="🇸🇳">
+                    <input type="radio" id="🇸🇳" name="country" value="Senegal" />
+                    Senegal
+                </label>
+                <label for="🇷🇸">
+                    <input type="radio" id="🇷🇸" name="country" value="Serbia" />
+                    Serbia
+                </label>
+                <label for="🇸🇨">
+                    <input type="radio" id="🇸🇨" name="country" value="Seychelles" />
+                    Seychelles
+                </label>
+                <label for="🇸🇱">
+                    <input type="radio" id="🇸🇱" name="country" value="Sierra Leone" />
+                    Sierra Leone
+                </label>
+                <label for="🇸🇬">
+                    <input type="radio" id="🇸🇬" name="country" value="Singapore" />
+                    Singapore
+                </label>
+                <label for="🇸🇽">
+                    <input type="radio" id="🇸🇽" name="country" value="Sint Maarten" />
+                    Sint Maarten
+                </label>
+                <label for="🇸🇰">
+                    <input type="radio" id="🇸🇰" name="country" value="Slovakia" />
+                    Slovakia
+                </label>
+                <label for="🇸🇮">
+                    <input type="radio" id="🇸🇮" name="country" value="Slovenia" />
+                    Slovenia
+                </label>
+                <label for="🇸🇧">
+                    <input type="radio" id="🇸🇧" name="country" value="Solomon Islands" />
+                    Solomon Islands
+                </label>
+                <label for="🇸🇴">
+                    <input type="radio" id="🇸🇴" name="country" value="Somalia" />
+                    Somalia
+                </label>
+                <label for="🇿🇦">
+                    <input type="radio" id="🇿🇦" name="country" value="South Africa" />
+                    South Africa
+                </label>
+                <label for="🇬🇸">
+                    <input type="radio" id="🇬🇸" name="country" value="South Georgia" />
+                    South Georgia
+                </label>
+                <label for="🇸🇸">
+                    <input type="radio" id="🇸🇸" name="country" value="South Sudan" />
+                    South Sudan
+                </label>
+                <label for="🇪🇸">
+                    <input type="radio" id="🇪🇸" name="country" value="Spain" />
+                    Spain
+                </label>
+                <label for="🇱🇰">
+                    <input type="radio" id="🇱🇰" name="country" value="Sri Lanka" />
+                    Sri Lanka
+                </label>
+                <label for="🇸🇩">
+                    <input type="radio" id="🇸🇩" name="country" value="Sudan" />
+                    Sudan
+                </label>
+                <label for="🇸🇷">
+                    <input type="radio" id="🇸🇷" name="country" value="Suriname" />
+                    Suriname
+                </label>
+                <label for="🇸🇯">
+                    <input type="radio" id="🇸🇯" name="country" value="Svalbard and Jan Mayen" />
+                    Svalbard and Jan Mayen
+                </label>
+                <label for="🇸🇪">
+                    <input type="radio" id="🇸🇪" name="country" value="Sweden" />
+                    Sweden
+                </label>
+                <label for="🇨🇭">
+                    <input type="radio" id="🇨🇭" name="country" value="Switzerland" />
+                    Switzerland
+                </label>
+                <label for="🇸🇾">
+                    <input type="radio" id="🇸🇾" name="country" value="Syria" />
+                    Syria
+                </label>
+                <label for="🇹🇼">
+                    <input type="radio" id="🇹🇼" name="country" value="Taiwan" />
+                    Taiwan
+                </label>
+                <label for="🇹🇯">
+                    <input type="radio" id="🇹🇯" name="country" value="Tajikistan" />
+                    Tajikistan
+                </label>
+                <label for="🇹🇿">
+                    <input type="radio" id="🇹🇿" name="country" value="Tanzania" />
+                    Tanzania
+                </label>
+                <label for="🇹🇭">
+                    <input type="radio" id="🇹🇭" name="country" value="Thailand" />
+                    Thailand
+                </label>
+                <label for="🇹🇱">
+                    <input type="radio" id="🇹🇱" name="country" value="Timor-Leste" />
+                    Timor-Leste
+                </label>
+                <label for="🇹🇬">
+                    <input type="radio" id="🇹🇬" name="country" value="Togo" />
+                    Togo
+                </label>
+                <label for="🇹🇰">
+                    <input type="radio" id="🇹🇰" name="country" value="Tokelau" />
+                    Tokelau
+                </label>
+                <label for="🇹🇴">
+                    <input type="radio" id="🇹🇴" name="country" value="Tonga" />
+                    Tonga
+                </label>
+                <label for="🇹🇹">
+                    <input type="radio" id="🇹🇹" name="country" value="Trinidad and Tobago" />
+                    Trinidad and Tobago
+                </label>
+                <label for="🇹🇳">
+                    <input type="radio" id="🇹🇳" name="country" value="Tunisia" />
+                    Tunisia
+                </label>
+                <label for="🇹🇷">
+                    <input type="radio" id="🇹🇷" name="country" value="Turkey" />
+                    Turkey
+                </label>
+                <label for="🇹🇲">
+                    <input type="radio" id="🇹🇲" name="country" value="Turkmenistan" />
+                    Turkmenistan
+                </label>
+                <label for="🇹🇨">
+                    <input type="radio" id="🇹🇨" name="country" value="Turks and Caicos Islands" />
+                    Turks and Caicos Islands
+                </label>
+                <label for="🇹🇻">
+                    <input type="radio" id="🇹🇻" name="country" value="Tuvalu" />
+                    Tuvalu
+                </label>
+                <label for="🇺🇬">
+                    <input type="radio" id="🇺🇬" name="country" value="Uganda" />
+                    Uganda
+                </label>
+                <label for="🇺🇦">
+                    <input type="radio" id="🇺🇦" name="country" value="Ukraine" />
+                    Ukraine
+                </label>
+                <label for="🇦🇪">
+                    <input type="radio" id="🇦🇪" name="country" value="United Arab Emirates" />
+                    United Arab Emirates
+                </label>
+                <label for="🇬🇧">
+                    <input type="radio" id="🇬🇧" name="country" value="United Kingdom" />
+                    United Kingdom
+                </label>
+                <label for="🇺🇸">
+                    <input type="radio" id="🇺🇸"  checked name="country" value="United States" />
+                    United States
+                </label>
+                <label for="🇺🇲">
+                    <input type="radio" id="🇺🇲" name="country" value="United States Minor Outlying Islands" />
+                    United States Minor Outlying Islands
+                </label>
+                <label for="🇺🇾">
+                    <input type="radio" id="🇺🇾" name="country" value="Uruguay" />
+                    Uruguay
+                </label>
+                <label for="🇺🇿">
+                    <input type="radio" id="🇺🇿" name="country" value="Uzbekistan" />
+                    Uzbekistan
+                </label>
+                <label for="🇻🇺">
+                    <input type="radio" id="🇻🇺" name="country" value="Vanuatu" />
+                    Vanuatu
+                </label>
+                <label for="🇻🇦">
+                    <input type="radio" id="🇻🇦" name="country" value="Vatican City (Holy See)" />
+                    Vatican City (Holy See)
+                </label>
+                <label for="🇻🇪">
+                    <input type="radio" id="🇻🇪" name="country" value="Venezuela" />
+                    Venezuela
+                </label>
+                <label for="🇻🇳">
+                    <input type="radio" id="🇻🇳" name="country" value="Vietnam" />
+                    Vietnam
+                </label>
+                <label for="🇻🇬">
+                    <input type="radio" id="🇻🇬" name="country" value="British Virgin Islands" />
+                    British Virgin Islands
+                </label>
+                <label for="🇻🇮">
+                    <input type="radio" id="🇻🇮" name="country" value="United States Virgin Islands" />
+                    United States Virgin Islands
+                </label>
+                <label for="🏴󠁧󠁢󠁷󠁬󠁳󠁿">
+                    <input type="radio" id="🏴󠁧󠁢󠁷󠁬󠁳󠁿" name="country" value="Wales" />
+                    Wales
+                </label>
+                <label for="🇼🇫">
+                    <input type="radio" id="🇼🇫" name="country" value="Wallis and Futuna" />
+                    Wallis and Futuna
+                </label>
+                <label for="🇪🇭">
+                    <input type="radio" id="🇪🇭" name="country" value="Western Sahara" />
+                    Western Sahara
+                </label>
+                <label for="🇾🇪">
+                    <input type="radio" id="🇾🇪" name="country" value="Yemen" />
+                    Yemen
+                </label>
+                <label for="🇿🇲">
+                    <input type="radio" id="🇿🇲" name="country" value="Zambia" />
+                    Zambia
+                </label>
+                <label for="🇿🇼">
+                    <input type="radio" id="🇿🇼" name="country" value="Zimbabwe" />
+                    Zimbabwe
+                </label>
+                
+                  <!-- <label for="Seventh">
+                    <input type="radio" id="Seventh" name="qty2" value="Study ID 12345" />
+                  Study ID 12345
+                  </label> -->
+                </div>
+              </div>
+            </div>
+
+            <!-- 3rd Question -->
+            <div class="item">
+              <p>What is your work experience?</p>
+              <input type="hidden" id="qty3" value=""/>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle w-100" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span> New hire</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <!-- <label for="First">
+                    <input type="radio" id="first" name="qty3" value="Global Study Manager (GMS) Trial Operations- Pharma" />
+                    Global Study Manager (GMS) Trial Operations- Pharma
+                  </label>
+                  <label for="Second">
+                    <input type="radio" id="second" name="qty3" value="Data Manager" />
+                    Data Manager
+                  </label>
+                  <label for="Third">
+                    <input type="radio" id="Third" name="qty3" value="CRA" />
+                    CRA
+                  </label>
+                  <label for="fourth">
+                    <input type="radio" id="fourth" name="qty3" value="EMEA-FR" />
+                    EMEA-FR
+                  </label> -->
+                  <label for="fifth">
+                    <input type="radio" id="fifth" name="qty3" checked value="New hire"/>
+                    New hire
+                  </label>
+                  <label for="sixth">
+                    <input type="radio" id="sixth" name="qty3" value="New to Role"/>
+                    New to Role
+                  </label>
+                  <label for="Seventh">
+                    <input type="radio" id="Seventh" name="qty3" value="New in the Project" />
+                    New in the Project
+                  </label>
+                  <label for="Eight">
+                    <input type="radio" id="fourth" name="qty3" value="New to Therapeutic Area" />
+                    New to Therapeutic Area
+                  </label> 
+                  <label for="fourth">
+                    <input type="radio" id="fourth" name="qty3" value="All" />
+                   All
+                  </label> 
+                </div>
+              </div>
+            </div>
+
+            <!-- 4th Question -->
+            <div class="item">
+              <p>On which clinical study program type are you working?</p>
+              <input type="hidden" id="qty4" value=""/>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle w-100" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span>IV</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <!-- <label for="First">
+                    <input type="radio" id="first" name="qty4" value="Global Study Manager (GMS) Trial Operations- Pharma" />
+                    Global Study Manager (GMS) Trial Operations- Pharma
+                  </label>
+                  <label for="Second">
+                    <input type="radio" id="second" name="qty4" value="Data Manager" />
+                    Data Manager
+                  </label> -->
+                  <label for="Third">
+                    <input type="radio" id="Third" name="qty4" value="I" />
+                    I
+                  </label>
+                  <label for="fourth">
+                    <input type="radio" id="fourth" name="qty4" value="II" />
+                    II
+                  </label>
+                  <label for="fifth">
+                    <input type="radio" id="fifth"  name="qty4" value=" III"/>
+                    III
+                  </label>
+                  <label for="sixth">
+                    <input type="radio" id="sixth" checked name="qty4" value="IV"/>
+                   IV
+                  </label>
+                  <label for="Seventh">
+                    <input type="radio" id="Seventh" name="qty4" value=" All" />
+                  All
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <!-- 5th Question -->
+            <div class="item">
+              <p>On which study milestone are you working?</p>
+              <input type="hidden" id="qty5" value=""/>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle w-100" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span>Planning and Definition</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <!-- <label for="First">
+                    <input type="radio" id="first" name="qty5" value="Global Study Manager (GMS) Trial Operations- Pharma" />
+                    Global Study Manager (GMS) Trial Operations- Pharma
+                  </label> -->
+                  <label for="Third">
+                    <input type="radio" id="Third"  checked name="qty5" value=" Planning and Definition" />
+                    Planning and Definition
+                  </label>
+                  <label for="fourth">
+                    <input type="radio" id="fourth" name="qty5" value=" Study Startup" />
+                    Study Startup
+                  </label>
+                  <label for="sixth">
+                    <input type="radio" id="sixth" name="qty5" value=" Study Conduct"/>
+                    Study Conduct
+                  </label>
+                  <label for="fifth">
+                    <input type="radio" id="fifth" name="qty5" value=" Closeout"/>
+                    Closeout
+                  </label>
+                  <label for="Seventh">
+                    <input type="radio" id="Seventh" name="qty5" value=" Closeout" />
+                    Analysis
+                  </label>
+                  <label for="Eight">
+                    <input type="radio" id="second" name="qty5" value="Transversal (All Steps)" />
+                    Transversal (All Steps)
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <!-- 6th Question -->
+            <div class="item">
+              <p>On which study are you working (to drive product, TA, therapeutic indication)</p>
+              <input type="hidden" id="qty6" value=""/>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle w-100" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span> Study ID 12345</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <!-- <label for="First">
+                    <input type="radio" id="first" name="qty6" value="Global Study Manager (GMS) Trial Operations- Pharma" />
+                    Global Study Manager (GMS) Trial Operations- Pharma
+                  </label>
+                  <label for="Second">
+                    <input type="radio" id="second" name="qty6" value="Data Manager" />
+                    Data Manager
+                  </label>
+                  <label for="Third">
+                    <input type="radio" id="Third" name="qty6" value="CRA" />
+                    CRA
+                  </label>
+                  <label for="fourth">
+                    <input type="radio" id="fourth" name="qty6" value="EMEA-FR" />
+                    EMEA-FR
+                  </label> -->
+                  <label for="fifth">
+                    <input type="radio" id="fifth" checked name="qty6" value=" Study ID 12345"/>
+                    Study ID 12345
+                  </label>
+                  <label for="sixth">
+                    <input type="radio" id="sixth" name="qty6" value= "Study ID 87654"/>
+                    Study ID 87654 
+                  </label>
+                  <label for="Seventh">
+                    <input type="radio" id="Seventh" name="qty6" value= "Study ID 76543" />
+                    Study ID 76543 
+                  </label>
+                  <label for="Eight">
+                    <input type="radio" id="Seventh" name="qty6" value= "Study ID 34562" />
+                    Study ID 34562 
+                  </label>
+                  <label for="Eight">
+                    <input type="radio" id="Seventh" name="qty6" value= "Study ID 65432" />
+                    Study ID 65432
+                  </label>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        <div class="text-center">
+          <!-- <button type="button" class="btn submit hide">Submit</button> -->
+          <a type="button" href="landing.html" class="btn submit hide">Submit</a>
+        </div>
+        <!-- </form> -->
+      </div>
+    </div>
+
+    <!-- Brand Image -->
+    <div class="brand-image">
+
+      <img src="assets/images/login-bg.png" alt="Login Banner Image" />
+    </div>
+  </div>
+
+
+  <!-- js block -->
+  <!-- <script src="js/jquery-3.6.0.slim.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <!-- <script src="js/popper.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <!-- <script src="js/bootstrap/js/bootstrap.min.js"></script> -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <!-- custom js files -->
+  <script src="js/login.js"></script>
+  <script>
+    var show = true;
+  
+  function showradioes() {
+      var radioes = 
+          document.getElementById("radioes");
+
+      if (show) {
+          radioes.style.display = "block";
+          show = false;
+      } else {
+          radioes.style.display = "none";
+          show = true;
+      }
+  }
+  </script>
+
+  <!-- end js block -->
+
+</body>
+
+</html>

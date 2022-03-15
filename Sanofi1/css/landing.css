@@ -1,0 +1,10 @@
+.owl-nav {
+    display: none;
+  }
+  .landing-chart a {
+    text-decoration: none;
+    color: black;
+  }
+  .wrap1.card-landing {
+    margin-left: 66px !important;
+  }
